@@ -22,5 +22,5 @@ function currentLine(line) {
       array.push(`${i + 1}. ${line[i]}`)
     }
   }
-  return array.join(", ")
+  return 'The line is currently: ${array.join(", ")}'
 }
